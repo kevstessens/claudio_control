@@ -3,6 +3,7 @@ ActiveAdmin.register Pending do
   filter :client_nombre, as: :string, :label => "Nombre de cliente"
   filter :client_codigo, as: :string, :label => "Código de cliente"
   filter :product_codigo, as: :string, :label => "Código de product"
+  filter :product_nombre, as: :string, :label => "Producto"
   filter :created_at, :label => "Fecha"
 
   # See permitted parameters documentation:
