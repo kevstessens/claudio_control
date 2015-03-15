@@ -1,4 +1,5 @@
 ActiveAdmin.register Product do
+  menu label: "Productos"
   active_admin_import
 
   # See permitted parameters documentation:

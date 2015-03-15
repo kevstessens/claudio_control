@@ -1,4 +1,5 @@
 ActiveAdmin.register Client do
+  menu label: "Clientes"
 
   active_admin_import
 

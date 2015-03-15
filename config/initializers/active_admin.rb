@@ -4,7 +4,7 @@ ActiveAdmin.setup do |config|
   # Set the title that is displayed on the main layout
   # for each of the active admin pages.
   #
-  config.site_title = "Stessens"
+  config.site_title = "Claudio Stessens"
 
   # Set the link url for the title. For example, to take
   # users to your main site. Defaults to no link.
@@ -230,4 +230,7 @@ ActiveAdmin.setup do |config|
   # You can enable or disable them for all resources here.
   #
   # config.filters = true
+
+  config.show_comments_in_menu = false
+
 end

@@ -1,4 +1,6 @@
 ActiveAdmin.register Pending do
+  menu label: "Pedidos pendientes"
+
 
   filter :client_nombre, as: :string, :label => "Nombre de cliente"
   filter :client_codigo, as: :string, :label => "Código de cliente"
