@@ -42,3 +42,4 @@ gem 'spring',        group: :development
 gem 'activeadmin', '~> 1.0.0.pre1'
 gem 'devise'
 gem "active_admin_import" , github: "Fivell/active_admin_import"
+
