@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  client_id: 
+  product_id: 
+  cantidad: 1
+  fecha: 2015-03-15
+  listo: false
+
+two:
+  client_id: 
+  product_id: 
+  cantidad: 1
+  fecha: 2015-03-15
+  listo: false
