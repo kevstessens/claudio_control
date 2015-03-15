@@ -11,7 +11,7 @@ ActiveAdmin.register Pending do
   # See permitted parameters documentation:
   # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
   #
-  permit_params :client_id,  :product_id, :cantidad, :fecha, :listo
+  permit_params :client_id,  :product_id, :cantidad, :listo
   #
   # or
   #
