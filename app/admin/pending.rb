@@ -40,4 +40,6 @@ ActiveAdmin.register Pending do
     column(:fecha) {|pending| pending.created_at.strftime("%d/%m/%y")}
   end
 
+  form :partial => "form"
+
 end

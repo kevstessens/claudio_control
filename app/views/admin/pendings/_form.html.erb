@@ -1,0 +1,20 @@
+#encoding: utf-8
+
+<%= semantic_nested_form_for [:admin, @pending] do |f|%>
+
+    <%=f.inputs "Pedido pendiente" do%>
+        <%= f.input :client, as: :select2 %>
+        <%= f.input :product, as: :select2 %>
+        <%= f.input :cantidad %>
+    <%end%>
+
+    <br>
+
+    <%= f.actions do %>
+        <%= f.action :submit %>
+        <li class="cancel">
+          <%=link_to "Cancel", admin_pendings_path%>
+        </li>
+    <% end %>
+
+<% end%>

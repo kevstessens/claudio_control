@@ -7,6 +7,14 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root to: "admin/pendings#index"
 
+  match '*any' => 'application#options', :via => [:options]
+  namespace :api, defaults: {format: 'json'} do
+    namespace :v1 do
+      match "/clients" => "client#index", via: [:get, :post]
+      match "/clients/:id" => "client#show", via: [:get, :post]
+    end
+  end
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

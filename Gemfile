@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.1.2'
+ruby '2.1.5'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
 # Use sqlite3 as the database for Active Record
@@ -43,3 +43,6 @@ gem 'activeadmin', '~> 1.0.0.pre1'
 gem 'devise'
 gem "active_admin_import" , github: "Fivell/active_admin_import"
 
+gem 'select2-rails'
+gem 'activeadmin-select2', github: 'mfairburn/activeadmin-select2'
+gem "nested_form"
