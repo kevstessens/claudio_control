@@ -32,10 +32,10 @@ ActiveAdmin.register Pending do
   end
 
   csv do
-    column(:cliente) { |post| post.client.nombre }
     column(:codigo_de_cliente) { |post| post.client.codigo }
-    column(:producto) { |post| post.product.nombre }
+    column(:cliente) { |post| post.client.nombre }
     column(:codigo_de_producto) { |post| post.product.codigo }
+    column(:producto) { |post| post.product.nombre }
     column :cantidad
     column(:fecha) {|pending| pending.created_at.strftime("%d/%m/%y")}
   end
