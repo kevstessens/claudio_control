@@ -22,6 +22,7 @@ ActiveAdmin.register Pending do
   # end
 
   index do
+    selectable_column
     id_column
     column :client
     column :product
